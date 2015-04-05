@@ -1,0 +1,40 @@
+{
+  "name": "skeleploy",
+  "version": "0.0.0",
+  "description": "Quick deploy to custom server for web apps (meteor)",
+  "author": "CK <cerealkillerway@gmail.com>",
+  "bin": {
+    "deploy": "./lib/skeleploy.js"
+  },
+  "main": "./lib/skeleploy.js",
+  "preferGlobal": "true",
+  "keywords": [
+    "deploy",
+    "meteor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Cerealkillerway/MeteorDeploy.git"
+  },
+  "maintainers": [
+    "CK <cerealkillerway@gmail.com>"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "commander": "^2.7.1",
+    "read-json-sync": "^1.1.0"
+  },
+  "licence": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Cerealkillerway/MeteorDeploy/issues"
+  },
+  "homepage": "https://github.com/Cerealkillerway/MeteorDeploy",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT"
+}

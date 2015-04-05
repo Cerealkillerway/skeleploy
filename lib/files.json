@@ -1,0 +1,18 @@
+{
+	"meteor": {
+		"assets": [
+			"apache-reverse-proxy.vhost"
+		],
+		"scripts": [
+			"deploy-meteor.sh"
+		]
+	},
+	"html": {
+		"assets": [
+			"apache-html.vhost"
+		],
+		"scripts": [
+			"deploy-html.sh"
+		]
+	}
+}
