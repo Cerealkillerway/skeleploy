@@ -8,26 +8,27 @@
         "vHost": {
             "apache24": true,       
             "baseFile": "assets/vhost.txt",
-            "destDir": "/etc/apache2/sites-available/",
-            "domainName": "domain.com"
+            "destDir": "/etc/apache2/sites-available"
         },
         "mongodb": {
             "rootUser": "root",
             "rootPass": "rootPass",
             "rootAuthDb": "admin",
             "user": "dbUser",
-            "password": "dbPass",
-            "serverAddress": "x.x.x.x",
+            "pass": "dbPass",
+            "address": "x.x.x.x",
             "port": 27017,
             "dbName": "domain"
         },
-        "distDir": "dist",
-        "webDirectory": "/var/www/user/domain.com/",
+        "domain": "www.domain.com",
+        "webDir": "/var/www/user/domain.com",
         "port": 3000,
-        "foreverProcessName": "app-name.js",
+        "foreverProcessName": "app-name",
         "sshUser": "sshUser",
+        "sshUserHome": "/home/sshUser",
         "sshAddress": "x.x.x.x",
         "sshPass": "sshPass",
-        "localProcessMemoFile": "/your/desired/folder/running-apps.txt"
+        "localRunLog": "/your/desired/folder/running-apps.txt",
+        "remoteRunLog": "/your/desired/folder/running-apps.txt"
     }
 }

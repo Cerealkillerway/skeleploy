@@ -1,7 +1,7 @@
 <VirtualHost *:80 >
-    ServerAdmin postmaster@<<<domainName>>>
-    ServerName <<<domainName>>>
-    ServerAlias *.<<<domainName>>>
+    ServerAdmin postmaster@<<<domain>>>
+    ServerName <<<domain>>>
+    ServerAlias *.<<<domain>>>
     ServerSignature Off
 
     ProxyRequests off
