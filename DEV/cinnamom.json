@@ -1,0 +1,59 @@
+{
+    "local": {
+        "mongodb": {
+            "port": 3001
+        }
+    },
+    "cinnamom": {
+        "vHost": {
+            "apache24": false,       
+            "baseFile": "assets/vhost.txt",
+            "destDir": "/etc/apache2/sites-available"
+        },
+        "mongodb": {
+            "rootUser": "root",
+            "rootPass": "91aebb76de575f4",
+            "rootAuthDb": "admin",
+            "user": "paesidisandalmazzo",
+            "pass": "yEuUpWC8QEkx",
+            "address": "144.76.103.88",
+            "port": 27017,
+            "dbName": "paesidisandalmazzo"
+        },
+        "domain": "www.paesidisandalmazzo.it",
+        "webDir": "/var/www/igor/paesidisandalmazzo.it",
+        "port": 7000,
+        "foreverProcessName": "paesidisandalmazzo",
+        "sshUser": "igor",
+        "sshUserHome": "/home/igor",
+        "sshAddress": "144.76.103.88",
+        "sshPass": "1088cf852a",
+        "localProcessMemoFile": "/home/cerealkiller/works/meteor/running-apps.txt"
+    },
+    "test": {
+        "vHost": {
+            "apache24": false,       
+            "baseFile": "assets/vhost.txt",
+            "destDir": "/etc/apache2/sites-available"
+        },
+        "mongodb": {
+            "rootUser": "root",
+            "rootPass": "91aebb76de575f4",
+            "rootAuthDb": "admin",
+            "user": "test",
+            "pass": "yEuUpWC8QEkx",
+            "address": "144.76.103.88",
+            "port": 27017,
+            "dbName": "test"
+        },
+        "domain": "www.test.it",
+        "webDir": "/var/www/igor/test.it",
+        "port": 80000,
+        "foreverProcessName": "test",
+        "sshUser": "igor",
+        "sshUserHome": "/home/igor",
+        "sshAddress": "144.76.103.88",
+        "sshPass": "1088cf852a",
+        "localProcessMemoFile": "/home/cerealkiller/works/meteor/running-apps.txt"
+    }
+}

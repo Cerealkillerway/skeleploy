@@ -1,0 +1,1 @@
+scp -r .deploy/tmp/paesidisandalmazzo.tar.gz igor@cinnamom:/home/igor
